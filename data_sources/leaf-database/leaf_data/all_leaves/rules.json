@@ -1,0 +1,32 @@
+{
+    "collection": "all_leaves",
+    "database": "leaf_data",
+    "roles": [
+        {
+            "name": "owner",
+            "apply_when": {
+                "owner_id": "%%user.id"
+            },
+            "read": true,
+            "write": true,
+            "insert": true,
+            "delete": true,
+            "search": true,
+            "additional_fields": {}
+        },
+        {
+            "name": "non-owner",
+            "apply_when": {
+                "!=": [
+                    "owner_id",
+                    "%%user.id"
+                ]
+            },
+            "write": true,
+            "insert": true,
+            "delete": false,
+            "search": true,
+            "additional_fields": {}
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "dob": {
+            "bsonType": "date"
+        },
+        "first_name": {
+            "bsonType": "string"
+        },
+        "last_name": {
+            "bsonType": "string"
+        },
+        "num_leaves": {
+            "bsonType": "int"
+        },
+        "user_id": {
+            "bsonType": "string"
+        }
+    },
+    "title": "user"
+}
