@@ -1,4 +1,5 @@
 {
+    "bsonType": "object",
     "properties": {
         "_id": {
             "bsonType": "objectId"
@@ -12,9 +13,15 @@
         "location": {
             "bsonType": "string"
         },
-        "owner_id": {
+        "user_id": {
             "bsonType": "string"
         }
     },
+    "required": [
+        "_id",
+        "date",
+        "image",
+        "user_id"
+    ],
     "title": "leaf"
 }
