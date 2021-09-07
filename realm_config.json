@@ -3,6 +3,5 @@
     "config_version": 20210101,
     "name": "ALeaves",
     "location": "US-VA",
-    "deployment_model": "GLOBAL",
-    "environment": "development"
+    "deployment_model": "GLOBAL"
 }
